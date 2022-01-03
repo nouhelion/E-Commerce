@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bc77759-c8df-4428-ac88-0000fb83ab44" name="Changes" comment="swing part deleted">
-      <change afterPath="$PROJECT_DIR$/src/app.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app.java" afterDir="false" />
-    </list>
+    <list default="true" id="2bc77759-c8df-4428-ac88-0000fb83ab44" name="Changes" comment="swing part deleted" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -165,7 +162,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641247359085</updated>
-      <workItem from="1641247472576" duration="1903000" />
+      <workItem from="1641247472576" duration="1955000" />
     </task>
     <task id="LOCAL-00001" summary="why">
       <created>1641247599074</created>
@@ -202,7 +199,21 @@
       <option name="project" value="LOCAL" />
       <updated>1641249039030</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="swing part deleted">
+      <created>1641249866416</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1641249866416</updated>
+    </task>
+    <task id="LOCAL-00007" summary="swing part deleted">
+      <created>1641249873329</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1641249873329</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
