@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bc77759-c8df-4428-ac88-0000fb83ab44" name="Changes" comment="swing part deleted">
-      <change afterPath="$PROJECT_DIR$/src/Traitement_Des_articles/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2bc77759-c8df-4428-ac88-0000fb83ab44" name="Changes" comment="first class item done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,7 +133,7 @@
       <option name="presentableId" value="Default" />
       <updated>1641247359085</updated>
       <workItem from="1641247472576" duration="2963000" />
-      <workItem from="1641321569149" duration="3256000" />
+      <workItem from="1641321569149" duration="3609000" />
     </task>
     <task id="LOCAL-00001" summary="why">
       <created>1641247599074</created>
@@ -201,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641322203897</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="first class item done">
+      <created>1641339012899</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1641339012899</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +227,8 @@
     <MESSAGE value="deleting the out directory" />
     <MESSAGE value="swing part" />
     <MESSAGE value="swing part deleted" />
-    <option name="LAST_COMMIT_MESSAGE" value="swing part deleted" />
+    <MESSAGE value="first class item done" />
+    <option name="LAST_COMMIT_MESSAGE" value="first class item done" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
