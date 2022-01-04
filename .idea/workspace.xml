@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bc77759-c8df-4428-ac88-0000fb83ab44" name="Changes" comment="swing part deleted">
+      <change afterPath="$PROJECT_DIR$/src/Traitement_Des_articles/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +25,9 @@
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Traitement_Des_articles/Item.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -111,9 +113,8 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <option name="MAIN_CLASS_NAME" value="Traitement_Des_articles.Item" />
       <module name="app" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -135,7 +136,7 @@
       <option name="presentableId" value="Default" />
       <updated>1641247359085</updated>
       <workItem from="1641247472576" duration="2963000" />
-      <workItem from="1641321569149" duration="443000" />
+      <workItem from="1641321569149" duration="3256000" />
     </task>
     <task id="LOCAL-00001" summary="why">
       <created>1641247599074</created>
@@ -193,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641322014165</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="swing part deleted">
+      <created>1641322203897</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1641322203897</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
