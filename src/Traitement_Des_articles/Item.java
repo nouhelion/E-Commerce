@@ -29,8 +29,8 @@ public String toString() {
     public long getPrice() {
         return price;
     }
-
-
+    public int getWeight() { return weight;}
+//testing in the main
     public static void main(String[] args) {
         Item item = new Item("corn flakes", 500, 1000);
         System.out.println(item);           // affiche: corn flakes: 5.00 MAD
