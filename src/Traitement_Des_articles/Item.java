@@ -13,6 +13,11 @@ private final long price;
         this.price = a.price;
         this.name =a.name;
     }
+//override the println methode to print only objects we want
+@Override
+public String toString() {
+       return name +" : "+price ;
+}
 
 //getter
 //no setter since we dont wanna change anything
@@ -25,8 +30,10 @@ private final long price;
 
     public static void main(String[] args) {
         Item item = new Item("corn flakes", 500);
-        System.out.println(item.getPrice());        // affiche: 500
-        System.out.println(item.getName());         // affiche: corn flakes
+        System.out.println(item);           // affiche: corn flakes: 5.00 MAD
+        Item chewingGum = new Item("chewing gum",403);
+        System.out.println(chewingGum);    // affiche: chewing gum: 4.03 MAD
+
 
     }
 }

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bc77759-c8df-4428-ac88-0000fb83ab44" name="Changes" comment="first class item done" />
+    <list default="true" id="2bc77759-c8df-4428-ac88-0000fb83ab44" name="Changes" comment="workplaces">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Traitement_Des_articles/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Traitement_Des_articles/Item.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,6 +108,9 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -140,7 +146,8 @@
       <workItem from="1641375271847" duration="106000" />
       <workItem from="1641375437089" duration="121000" />
       <workItem from="1641375893698" duration="1028000" />
-      <workItem from="1641376955598" duration="1085000" />
+      <workItem from="1641376955598" duration="1211000" />
+      <workItem from="1641381910058" duration="939000" />
     </task>
     <task id="LOCAL-00001" summary="why">
       <created>1641247599074</created>
@@ -233,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641377449146</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="workplaces">
+      <created>1641381805310</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1641381805310</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,7 +270,8 @@
     <MESSAGE value="swing part" />
     <MESSAGE value="swing part deleted" />
     <MESSAGE value="first class item done" />
-    <option name="LAST_COMMIT_MESSAGE" value="first class item done" />
+    <MESSAGE value="workplaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="workplaces" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
