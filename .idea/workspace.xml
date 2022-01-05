@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bc77759-c8df-4428-ac88-0000fb83ab44" name="Changes" comment="testing">
-      <change afterPath="$PROJECT_DIR$/src/Traitement_des_paniers_achats/PanierArticles.java" afterDir="false" />
+    <list default="true" id="2bc77759-c8df-4428-ac88-0000fb83ab44" name="Changes" comment="fixing the wrong package">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/app/Traitement_des_factures/PanierArticles.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/app/Traitement_des_factures/PanierArticles.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Traitement_des_factures/PanierArticles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Traitement_des_paniers_achats/PanierArticles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Traitement_des_paniers_achats/PanierArticles.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +30,7 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Traitement_des_paniers_achats/PanierArticles.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Traitement_Des_articles/Item.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -156,7 +155,7 @@
       <workItem from="1641375437089" duration="121000" />
       <workItem from="1641375893698" duration="1028000" />
       <workItem from="1641376955598" duration="1211000" />
-      <workItem from="1641381910058" duration="15933000" />
+      <workItem from="1641381910058" duration="19320000" />
     </task>
     <task id="LOCAL-00001" summary="why">
       <created>1641247599074</created>
@@ -298,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641397016127</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="fixing the wrong package">
+      <created>1641409718709</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1641409718709</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +332,8 @@
     <MESSAGE value="add the weight variable to the class item" />
     <MESSAGE value="getter for weight" />
     <MESSAGE value="testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing" />
+    <MESSAGE value="fixing the wrong package" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing the wrong package" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

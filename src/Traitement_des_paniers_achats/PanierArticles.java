@@ -8,7 +8,7 @@ import java.util.List;
 
 public class PanierArticles {
     private List<Item> items = new ArrayList<Item>();
-    private static int counter = 0;
+    private  int counter = 0;
     //add to the collection of itens to panierArticles
     public void addItem(Item item) {
         if (item.getWeight()>1000)
@@ -36,21 +36,22 @@ public class PanierArticles {
         }
         return sum;
     }
+    //printing the array of items
+    public String toString() {
+        int i=1;
+        for (Item a : items){
+           System.out.println(i+"/ "+a.toString());
+           i++;
+        }
+       return "";
+    }
     //testing in the main
     public static void main(String[] args) {
-        Item item1 = new Item("corn flakes", 501, 1000);
-        Item item2 = new Item("caviar", 50000, 500);
-        Item item3 = new Item("water", 500, 5000);
         PanierArticles panier = new PanierArticles();
-        panier.addItem(item1);
-        panier.addItem(item2);
-        panier.addItem(item3);
-        panier.addItem(item3);     // lève java.lang.IllegalStateException
-        panier.removeItem(new Item("eau", 500, 5000));
-        panier.addItem(item3);     // lève java.lang.IllegalStateException
-        panier.removeItem(new Item("water", 500, 5000));
-        panier.addItem(item3);        // ajout possible!
-        System.out.println(panier.itemCount());
-
+        Item item = new Item("corn flakes", 500,1000);
+        panier.addItem(item);
+        System.out.println(panier);
+        panier.removeItem(item);
+        System.out.println(panier.itemCount());       // affiche: 0
     }
 }
