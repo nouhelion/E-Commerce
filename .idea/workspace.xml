@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bc77759-c8df-4428-ac88-0000fb83ab44" name="Changes" comment="workplaces">
+    <list default="true" id="2bc77759-c8df-4428-ac88-0000fb83ab44" name="Changes" comment="overridings of the println :)">
+      <change afterPath="$PROJECT_DIR$/src/Traitement_des_factures/PanierArticles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Traitement_Des_articles/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Traitement_Des_articles/Item.java" afterDir="false" />
     </list>
@@ -12,6 +13,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -147,7 +151,7 @@
       <workItem from="1641375437089" duration="121000" />
       <workItem from="1641375893698" duration="1028000" />
       <workItem from="1641376955598" duration="1211000" />
-      <workItem from="1641381910058" duration="939000" />
+      <workItem from="1641381910058" duration="2962000" />
     </task>
     <task id="LOCAL-00001" summary="why">
       <created>1641247599074</created>
@@ -247,7 +251,21 @@
       <option name="project" value="LOCAL" />
       <updated>1641381805310</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="overridings of the println :)">
+      <created>1641383364261</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1641383364261</updated>
+    </task>
+    <task id="LOCAL-00016" summary="overridings of the println :)">
+      <created>1641383474941</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1641383474941</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +289,8 @@
     <MESSAGE value="swing part deleted" />
     <MESSAGE value="first class item done" />
     <MESSAGE value="workplaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="workplaces" />
+    <MESSAGE value="overridings of the println :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="overridings of the println :)" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
