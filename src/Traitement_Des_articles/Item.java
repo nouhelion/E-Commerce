@@ -1,5 +1,7 @@
 package Traitement_Des_articles;
 
+import org.jetbrains.annotations.NotNull;
+
 public class Item {
 private final String name;
 private final long price;
@@ -11,7 +13,7 @@ private final int weight;
         this.weight = weight;
     }
 //constructor of copy
-    public Item(Item a) {
+    public Item(@NotNull Item a) {
         this.price = a.price;
         this.name =a.name;
         this.weight = a.weight;
@@ -19,7 +21,7 @@ private final int weight;
 //override the println methode to print only objects we want
 @Override
 public String toString() {
-       return name +" : "+price +" : "+weight;
+       return name +" : "+price +" MAD : "+weight+" Grammes ";
 }
 //getter
 //no setter since we dont wanna change anything
