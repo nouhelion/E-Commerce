@@ -110,6 +110,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
+  <component name="ReaderModeSettings">
+    <option name="showLigatures" value="true" />
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Traitement_Des_articles.Item" />
@@ -139,7 +142,7 @@
       <workItem from="1641375271847" duration="106000" />
       <workItem from="1641375437089" duration="121000" />
       <workItem from="1641375893698" duration="1028000" />
-      <workItem from="1641376955598" duration="156000" />
+      <workItem from="1641376955598" duration="475000" />
     </task>
     <task id="LOCAL-00001" summary="why">
       <created>1641247599074</created>
@@ -218,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641339243471</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="first class item done">
+      <created>1641377131100</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1641377131100</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
