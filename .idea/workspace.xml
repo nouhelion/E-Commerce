@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bc77759-c8df-4428-ac88-0000fb83ab44" name="Changes" comment="nighty nighty">
+    <list default="true" id="2bc77759-c8df-4428-ac88-0000fb83ab44" name="Changes" comment="update comments">
+      <change afterPath="$PROJECT_DIR$/src/Traitement_des_produits_frais/FreshItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/app/Traitement_des_paniers_achats/PanierArticles.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/app/Traitement_des_paniers_achats/PanierArticles.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Traitement_des_paniers_achats/PanierArticles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Traitement_des_paniers_achats/PanierArticles.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +33,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/Traitement_des_paniers_achats/PanierArticles.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Traitement_des_produits_frais/FreshItem.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Traitement_Des_articles/Item.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -127,7 +130,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Traitement_des_paniers_achats.PanierArticles" />
+      <option name="MAIN_CLASS_NAME" value="Traitement_des_produits_frais.FreshItem" />
       <module name="app" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -156,7 +159,7 @@
       <workItem from="1641375893698" duration="1028000" />
       <workItem from="1641376955598" duration="1211000" />
       <workItem from="1641381910058" duration="25129000" />
-      <workItem from="1641454486289" duration="3356000" />
+      <workItem from="1641454486289" duration="9383000" />
     </task>
     <task id="LOCAL-00001" summary="why">
       <created>1641247599074</created>
@@ -361,7 +364,28 @@
       <option name="project" value="LOCAL" />
       <updated>1641429006964</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="fixed the ID thing">
+      <created>1641467486073</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1641467486073</updated>
+    </task>
+    <task id="LOCAL-00031" summary="fixed the ID thing">
+      <created>1641467502716</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1641467502716</updated>
+    </task>
+    <task id="LOCAL-00032" summary="update comments">
+      <created>1641467638545</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1641467638545</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,7 +416,9 @@
     <MESSAGE value="fixing the wrong package" />
     <MESSAGE value="good ?" />
     <MESSAGE value="nighty nighty" />
-    <option name="LAST_COMMIT_MESSAGE" value="nighty nighty" />
+    <MESSAGE value="fixed the ID thing" />
+    <MESSAGE value="update comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="update comments" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

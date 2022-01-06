@@ -1,7 +1,5 @@
 package Traitement_des_paniers_achats;
-
 // Importing required classes
-
 import Traitement_Des_articles.Item;
 import java.util.ArrayList;
 import java.util.List;
