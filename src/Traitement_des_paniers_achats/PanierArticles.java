@@ -69,7 +69,7 @@ public class PanierArticles {
         PanierArticles c3 = new PanierArticles();
         Item item3 = new Item("water", 500, 500);
         c3.addItem(item3);
-        System.out.println(c2.getID());         // affiche: 2 => it doesnt show 2
+        System.out.println(c2.getID());         // affiche: 2
         System.out.println(c3.getID());         // affiche: 3
         System.out.println(c1); // affiche: panier 1 [2 article(s)]
         //            corn flakes: 5.01 MAD
