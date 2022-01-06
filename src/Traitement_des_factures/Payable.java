@@ -4,4 +4,5 @@ interface Payable  {
      String label();
      long cost();
     double taxRatePerTenThousand();
+
 }

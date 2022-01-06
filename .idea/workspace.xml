@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bc77759-c8df-4428-ac88-0000fb83ab44" name="Changes" comment="thomas">
-      <change afterPath="$PROJECT_DIR$/src/Traitement_des_factures/Payable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Traitement_des_factures/Ticket.java" afterDir="false" />
+    <list default="true" id="2bc77759-c8df-4428-ac88-0000fb83ab44" name="Changes" comment="interface">
+      <change afterPath="$PROJECT_DIR$/src/Traitement_des_factures/Invoice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/app/Traitement_des_factures/Ticket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/app/Traitement_des_factures/Ticket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Traitement_des_factures/Payable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Traitement_des_factures/Payable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Traitement_des_factures/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Traitement_des_factures/Ticket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +35,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/Traitement_des_paniers_achats/PanierArticles.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Traitement_des_produits_frais/FreshItem.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Traitement_des_factures/Ticket.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Traitement_Des_articles/Item.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Traitement_des_factures/Invoice.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -129,7 +133,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Traitement_des_factures.Ticket" />
+      <option name="MAIN_CLASS_NAME" value="Traitement_des_factures.Invoice" />
       <module name="app" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -158,7 +162,7 @@
       <workItem from="1641375893698" duration="1028000" />
       <workItem from="1641376955598" duration="1211000" />
       <workItem from="1641381910058" duration="25129000" />
-      <workItem from="1641454486289" duration="18532000" />
+      <workItem from="1641454486289" duration="21101000" />
     </task>
     <task id="LOCAL-00001" summary="why">
       <created>1641247599074</created>
@@ -405,7 +409,21 @@
       <option name="project" value="LOCAL" />
       <updated>1641478729080</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="interface">
+      <created>1641493925587</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1641493925587</updated>
+    </task>
+    <task id="LOCAL-00037" summary="interface">
+      <created>1641494580986</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1641494580986</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,7 +458,8 @@
     <MESSAGE value="update comments" />
     <MESSAGE value="motive ? bad hair week" />
     <MESSAGE value="thomas" />
-    <option name="LAST_COMMIT_MESSAGE" value="thomas" />
+    <MESSAGE value="interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="interface" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

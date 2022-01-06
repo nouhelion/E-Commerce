@@ -16,6 +16,12 @@ public class Ticket implements Payable{
         long p= this.getPrice();
         return p*0.25;
     }
+    //present the tickets
+
+    public String toString() {
+        return reference +", " + price ;
+    }
+
     //constructor with arguments
     public Ticket(String reference,long price) {
         this.reference = reference;
