@@ -3,9 +3,6 @@ package Traitement_des_factures;
 public class Ticket implements Payable{
     private String reference;
     private long price;
-    //default constructor
-    public Ticket() {
-    }
     @Override
     public String label() {
         return this.getReference();
@@ -31,7 +28,6 @@ public class Ticket implements Payable{
         System.out.println(payable.label()); // affiche: RGBY17032012 - Walles-France
         System.out.println(payable.cost()); // affiche: 9000
         System.out.println(payable.taxRatePerTenThousand());  // affiche: 2500
-
     }
 
 
