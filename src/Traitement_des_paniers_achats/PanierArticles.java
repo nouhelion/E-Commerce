@@ -70,6 +70,14 @@ public class PanierArticles {
         c3.addItem(item3);
         System.out.println(c2.getID());         // affiche: 2 => it doesnt show 2
         System.out.println(c3.getID());         // affiche: 3
+        System.out.println(c1); // affiche: panier 1 [2 article(s)]
+        //            corn flakes: 5.01 MAD
+        //            caviar: 500.00 MAD
+
+        System.out.println(c2); // affiche: panier 2 [0 article(s)]
+
+        System.out.println(c3); // affiche: panier 3 [1 article(s)]
+        //            water: 5.00 MAD
 
     }
 }
