@@ -21,7 +21,9 @@ private final int weight;
 //override the println methode to print only objects we want
 @Override
 public String toString() {
-       return name +" : "+price +".00 MAD "+" : "+weight +" Grammes ";
+       double p;
+       p=price/100.000;
+        return name +" : "+p +"0 MAD "+" : "+weight +" Grammes ";
 }
 //getter
 //no setter since we dont wanna change anything
