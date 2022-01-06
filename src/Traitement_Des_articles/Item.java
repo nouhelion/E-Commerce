@@ -1,8 +1,9 @@
 package Traitement_Des_articles;
 
+
 import org.jetbrains.annotations.NotNull;
 
-public class Item {
+public class Item  {
 private final String name;
 private final long price;
 private final int weight;
@@ -41,4 +42,6 @@ public String toString() {
         Item chewingGum = new Item("chewing gum",403,500);
         System.out.println(chewingGum);    // affiche: chewing gum: 4.03 MAD
     }
+
+
 }

@@ -12,7 +12,6 @@ public class Invoice {
     public void add(Payable p){
         this.facture.add(p);
     }
-
     @Override
     public String toString() {
         for (Payable a : facture){
@@ -20,7 +19,6 @@ public class Invoice {
         }
         return "";
     }
-
     public static void main(String[] args) {
         Invoice invoice = new Invoice();
         Payable payable = new Ticket("RGBY20120317 - Walles-France", 9000);
