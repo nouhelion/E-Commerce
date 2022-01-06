@@ -48,10 +48,9 @@ public class PanierArticles {
     }
     //printing the array of items
     public String toString() {
-        int i=1;
+        System.out.println("Panier "+this.getID()+" : ["+this.itemCount()+ " Article(s)]");
         for (Item a : items){
-           System.out.println("panier"+i+"["+this.itemCount()+ " article(s)]"+a.toString());
-           i++;
+           System.out.println(a.toString());
         }
        return "";
     }
