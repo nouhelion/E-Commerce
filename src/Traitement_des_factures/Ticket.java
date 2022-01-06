@@ -17,7 +17,6 @@ public class Ticket implements Payable{
         return p*0.25;
     }
     //present the tickets
-
     public String toString() {
         return reference +", " + price ;
     }
