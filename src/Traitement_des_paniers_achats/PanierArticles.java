@@ -50,7 +50,7 @@ public class PanierArticles {
     public String toString() {
         int i=1;
         for (Item a : items){
-           System.out.println(i+"/ "+a.toString());
+           System.out.println("panier"+i+"["+this.itemCount()+ " article(s)]"+a.toString());
            i++;
         }
        return "";
