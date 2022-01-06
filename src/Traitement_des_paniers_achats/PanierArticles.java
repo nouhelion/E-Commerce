@@ -9,10 +9,12 @@ import java.util.List;
 public class PanierArticles {
     private List<Item> items = new ArrayList<Item>();
     private  int counter = 0;
-    public static int ID;
+    public static int a=0;
+    private int ID;
     //default constructor
     public PanierArticles() {
-        ID++;
+        a++;
+        ID=a;
     }
     //add to the collection of itens to panierArticles
     public void addItem(Item item) {
@@ -24,7 +26,7 @@ public class PanierArticles {
         }
     }
     //getter ID
-    public int getID() { return this.ID; }
+    public int getID() { return ID; }
     //removeItem
     public boolean removeItem(Item item) {
         if(items.contains(item)) {
