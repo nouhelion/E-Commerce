@@ -8,6 +8,8 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import static java.lang.Math.floor;
+
 public class FreshItem extends Item  {
     private String bestBeforeDate;
     //constructor with arguments
@@ -31,7 +33,7 @@ public class FreshItem extends Item  {
        if(super.getWeight()<1000)
            return 1000;
        else
-           return 990;
+           return (10-(0.1*floor(super.getWeight()/1000)))*100;
     }
 //getter of the date
     public String getBestBeforeDate() { return bestBeforeDate; }
