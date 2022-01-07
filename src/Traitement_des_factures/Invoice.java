@@ -20,21 +20,41 @@ public class Invoice {
         }
         return "";
     }
+    public long totalAmount(){
+        long sum=0;
+        for (Payable a : facture){
+            sum+=a.cost();
+        }
+        return sum;
+    }
+    public long totalTax(){
+        long tax=0;
+        for (Payable a : facture){
+           tax+=a.taxRatePerTenThousand();
+        }
+        return tax;
+    }
     public static void main(String[] args) {
-        Invoice invoice = new Invoice();
-        Payable payable = new Ticket("RGBY20120317 - Walles-France", 9000);
-        Ticket ticket = new Ticket("MUSI20120612 - RollingStones",12000);
-        invoice.add(payable);
-        invoice.add(ticket);
-        Item item = new Item("corn flakes", 500, 1000);
-        invoice.add(item);
-        System.out.println(invoice);
+//        Invoice invoice = new Invoice();
+//        Payable payable = new Ticket("RGBY20120317 - Walles-France", 9000);
+//        Ticket ticket = new Ticket("MUSI20120612 - RollingStones",12000);
+//        invoice.add(payable);
+//        invoice.add(ticket);
+//        Item item = new Item("corn flakes", 500, 1000);
+//        invoice.add(item);
+//        System.out.println(invoice);
         Item tin = new Item("sardine", 500, 500);
         FreshItem fresh = new FreshItem("sardine", 500, 500, "2012-04-11");
         FreshItem fresh2 = new FreshItem("sardine x3", 1500, 1500, "2012-04-11");
         System.out.println(tin.taxRatePerTenThousand());     // affiche: 1000
         System.out.println(fresh.taxRatePerTenThousand());   // affiche: 1000
         System.out.println(fresh2.taxRatePerTenThousand());  // affiche:  990
+        Invoice invoice = new Invoice();
+        invoice.add(tin);
+        invoice.add(fresh);
+        invoice.add(fresh2);
+        System.out.println(invoice.totalAmount());  // affiche: 2500
+        System.out.println(invoice.totalTax());     // affiche:  248
 
 
     }

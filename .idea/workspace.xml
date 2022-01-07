@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bc77759-c8df-4428-ac88-0000fb83ab44" name="Changes" comment="worked implementation to freshitem">
+    <list default="true" id="2bc77759-c8df-4428-ac88-0000fb83ab44" name="Changes" comment="tax stuff">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/app/Traitement_des_factures/Ticket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/app/Traitement_des_factures/Ticket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/app/Traitement_des_produits_frais/FreshItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/app/Traitement_des_produits_frais/FreshItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Traitement_des_produits_frais/FreshItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Traitement_des_produits_frais/FreshItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/app/Traitement_des_factures/Invoice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/app/Traitement_des_factures/Invoice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Traitement_des_factures/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Traitement_des_factures/Invoice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +161,7 @@
       <workItem from="1641376955598" duration="1211000" />
       <workItem from="1641381910058" duration="25129000" />
       <workItem from="1641454486289" duration="25580000" />
-      <workItem from="1641557028343" duration="7541000" />
+      <workItem from="1641557028343" duration="8335000" />
     </task>
     <task id="LOCAL-00001" summary="why">
       <created>1641247599074</created>
@@ -472,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641586409239</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="tax stuff">
+      <created>1641598968882</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1641598968882</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,7 +518,8 @@
     <MESSAGE value="testing ?" />
     <MESSAGE value="worked implementation to item" />
     <MESSAGE value="worked implementation to freshitem" />
-    <option name="LAST_COMMIT_MESSAGE" value="worked implementation to freshitem" />
+    <MESSAGE value="tax stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="tax stuff" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
