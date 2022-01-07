@@ -26,7 +26,7 @@ public class Invoice {
         invoice.add(payable);
         invoice.add(ticket);
         Item item = new Item("corn flakes", 500, 1000);
-        //invoice.add(item);
+        invoice.add(item);
         System.out.println(invoice);
     }
 }

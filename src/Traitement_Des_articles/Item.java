@@ -1,12 +1,27 @@
 package Traitement_Des_articles;
 
 
+import Traitement_des_factures.Payable;
 import org.jetbrains.annotations.NotNull;
 
-public class Item  {
+public class Item implements Payable {
 private final String name;
 private final long price;
 private final int weight;
+//override payable methods
+    @Override
+    public String label() {
+        return this.getName();
+    }
+    @Override
+    public long cost() {
+        return this.getPrice();
+    }
+    @Override
+    public double taxRatePerTenThousand() {
+        long p= this.getPrice();
+        return p*0.1;
+    }
 //constructor  with arguments
     public Item(String name, long price,int weight) {
         this.price = price;
@@ -42,6 +57,4 @@ public String toString() {
         Item chewingGum = new Item("chewing gum",403,500);
         System.out.println(chewingGum);    // affiche: chewing gum: 4.03 MAD
     }
-
-
 }

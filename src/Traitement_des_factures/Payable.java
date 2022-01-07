@@ -1,6 +1,6 @@
 package Traitement_des_factures;
 
-interface Payable  {
+public interface Payable  {
      String label();
      long cost();
     double taxRatePerTenThousand();
