@@ -1,12 +1,14 @@
 package Traitement_des_produits_frais;
 // Importing required classes
+
 import Traitement_Des_articles.Item;
-import Traitement_des_paniers_achats.PanierArticles;
+import Traitement_des_factures.Payable;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class FreshItem extends Item {
+public class FreshItem extends Item  {
     private String bestBeforeDate;
     //constructor with arguments
     public FreshItem(String name, long price, int weight ,String bestBeforeDate ) {
@@ -22,6 +24,14 @@ public class FreshItem extends Item {
         {
             System.out.println(bestBeforeDate+" is Invalid Date format");
         }
+    }
+    //override the tax thing
+    @Override
+    public double taxRatePerTenThousand() {
+       if(super.getWeight()<1000)
+           return 1000;
+       else
+           return 990;
     }
 //getter of the date
     public String getBestBeforeDate() { return bestBeforeDate; }

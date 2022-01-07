@@ -13,8 +13,7 @@ public class Ticket implements Payable{
     }
     @Override
     public double taxRatePerTenThousand() {
-        long p= this.getPrice();
-        return p*0.25;
+        return 2500;
     }
     //present the tickets
     public String toString() {
@@ -33,6 +32,7 @@ public class Ticket implements Payable{
         System.out.println(payable.label()); // affiche: RGBY17032012 - Walles-France
         System.out.println(payable.cost()); // affiche: 9000
         System.out.println(payable.taxRatePerTenThousand());  // affiche: 2500
+
     }
 
 

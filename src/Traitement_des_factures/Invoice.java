@@ -1,6 +1,7 @@
 package Traitement_des_factures;
 
 import Traitement_Des_articles.Item;
+import Traitement_des_produits_frais.FreshItem;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,5 +29,13 @@ public class Invoice {
         Item item = new Item("corn flakes", 500, 1000);
         invoice.add(item);
         System.out.println(invoice);
+        Item tin = new Item("sardine", 500, 500);
+        FreshItem fresh = new FreshItem("sardine", 500, 500, "2012-04-11");
+        FreshItem fresh2 = new FreshItem("sardine x3", 1500, 1500, "2012-04-11");
+        System.out.println(tin.taxRatePerTenThousand());     // affiche: 1000
+        System.out.println(fresh.taxRatePerTenThousand());   // affiche: 1000
+        System.out.println(fresh2.taxRatePerTenThousand());  // affiche:  990
+
+
     }
 }
