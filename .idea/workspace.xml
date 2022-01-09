@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bc77759-c8df-4428-ac88-0000fb83ab44" name="Changes" comment="tax stuff needs to be updated" />
+    <list default="true" id="2bc77759-c8df-4428-ac88-0000fb83ab44" name="Changes" comment="tax stuff needs to be updated">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -158,6 +160,7 @@
       <workItem from="1641381910058" duration="25129000" />
       <workItem from="1641454486289" duration="25580000" />
       <workItem from="1641557028343" duration="11159000" />
+      <workItem from="1641679552164" duration="1537000" />
     </task>
     <task id="LOCAL-00002" summary="deleting the out directory">
       <created>1641247753649</created>
