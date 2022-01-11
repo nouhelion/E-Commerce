@@ -12,7 +12,7 @@ public class Ticket implements Payable{
         return this.getPrice();
     }
     @Override
-    public double taxRatePerTenThousand() {
+    public long taxRatePerTenThousand() {
         return 2500;
     }
     //present the tickets

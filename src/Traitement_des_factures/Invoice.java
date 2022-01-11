@@ -30,7 +30,7 @@ public class Invoice {
     public long totalTax(){
         long tax=0;
         for (Payable a : facture){
-           tax+=a.taxRatePerTenThousand();//wrong idk why?
+          tax+=(a.taxRatePerTenThousand()/100)*a.cost();
         }
         return tax;
     }

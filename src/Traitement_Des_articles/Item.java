@@ -18,7 +18,7 @@ private final int weight;
         return this.getPrice();
     }
     @Override
-    public double taxRatePerTenThousand() {
+    public long taxRatePerTenThousand() {
         return 1000;
     }
 //constructor  with arguments
