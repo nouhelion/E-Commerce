@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bc77759-c8df-4428-ac88-0000fb83ab44" name="Changes" comment="tax stuff needs to be updated">
+    <list default="true" id="2bc77759-c8df-4428-ac88-0000fb83ab44" name="Changes" comment="project is done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/app/Traitement_Des_articles/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/app/Traitement_Des_articles/Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/app/Traitement_des_factures/Invoice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/app/Traitement_des_factures/Invoice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/app/Traitement_des_factures/Payable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/app/Traitement_des_factures/Payable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/app/Traitement_des_factures/Ticket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/app/Traitement_des_factures/Ticket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/app/Traitement_des_produits_frais/FreshItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/app/Traitement_des_produits_frais/FreshItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Traitement_des_factures/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Traitement_des_factures/Invoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Traitement_des_produits_frais/FreshItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Traitement_des_produits_frais/FreshItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +121,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="ReaderModeSettings">
@@ -169,14 +162,8 @@
       <workItem from="1641557028343" duration="11159000" />
       <workItem from="1641679552164" duration="1537000" />
       <workItem from="1641688316851" duration="39000" />
-      <workItem from="1641903443563" duration="14150000" />
-    </task>
-    <task id="LOCAL-00005" summary="swing part deleted">
-      <created>1641249039030</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1641249039030</updated>
+      <workItem from="1641903443563" duration="14829000" />
+      <workItem from="1641925773345" duration="585000" />
     </task>
     <task id="LOCAL-00006" summary="swing part deleted">
       <created>1641249866416</created>
@@ -514,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641911764769</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="project is done">
+      <created>1641925010043</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1641925010043</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -556,7 +550,8 @@
     <MESSAGE value="worked implementation to freshitem" />
     <MESSAGE value="tax stuff" />
     <MESSAGE value="tax stuff needs to be updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="tax stuff needs to be updated" />
+    <MESSAGE value="project is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="project is done" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
