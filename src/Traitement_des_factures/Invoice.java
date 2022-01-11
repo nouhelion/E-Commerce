@@ -6,6 +6,9 @@ import Traitement_des_produits_frais.FreshItem;
 import java.util.ArrayList;
 import java.util.List;
 
+import static java.lang.Math.floor;
+import static java.lang.Math.round;
+
 public class Invoice {
     private List <Payable> facture = new ArrayList<Payable>();
     public Invoice() {
@@ -27,10 +30,10 @@ public class Invoice {
         }
         return sum;
     }
-    public long totalTax(){
+    public long  totalTax(){
         long tax=0;
         for (Payable a : facture){
-          tax+=(a.taxRatePerTenThousand()/100)*a.cost();
+          tax+=(((a.taxRatePerTenThousand()/10)*a.cost())/1000);
         }
         return tax;
     }

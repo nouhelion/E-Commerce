@@ -30,11 +30,10 @@ public class FreshItem extends Item  {
     //override the tax thing
     @Override
     public long taxRatePerTenThousand() {
-        long res=  (10-(0.1*floor((long)(super.getWeight()/1000))))*100;
        if(super.getWeight()<1000)
            return 1000;
        else
-           return res ;
+           return (long) ((10-(0.1*(floor(super.getWeight()/1000))))*100);
     }
 //getter of the date
     public String getBestBeforeDate() { return bestBeforeDate; }
