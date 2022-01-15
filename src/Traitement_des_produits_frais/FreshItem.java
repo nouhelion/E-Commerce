@@ -9,9 +9,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import static java.lang.Math.floor;
-
+//freshitems that are still fresh
 public class FreshItem extends Item  {
-    private String bestBeforeDate;
+    private String bestBeforeDate;//expirationdate
     //constructor with arguments
     public FreshItem(String name, long price, int weight ,String bestBeforeDate ) {
         super(name, price, weight);
@@ -31,14 +31,23 @@ public class FreshItem extends Item  {
     @Override
     public long taxRatePerTenThousand() {
        if(super.getWeight()<1000)
+           //weight <1kg means => 10%
            return 1000;
        else
+           //created a algorithm based on the question
+           // we take off 0.1 each time
+           //1<weight<2 grammes means => 10% - 0.1%
+           //2<weight<3 grammes means => 10% - 0.2%
+           //3<weight<4 grammes means => 10% - 0.3%
+           //4<weight<5 grammes means => 10% - 0.4%
+           //etc
            return (long) ((10-(0.1*(floor(super.getWeight()/1000))))*100);
     }
 //getter of the date
     public String getBestBeforeDate() { return bestBeforeDate; }
-    //printing fresh product stuff
+    //displaying fresh product stuff
     public String toString() {
+        //we use super since the attribute is private and we are inheriting from the the base class to the daughter class
             System.out.println("BBD :"+bestBeforeDate+" "+super.toString());
         return "";
     }

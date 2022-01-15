@@ -25,8 +25,10 @@ public class PanierArticles {
     //add to the collection of itens to panierArticles
     public void addItem(Item item) {
         if (item.getWeight()>1000)
+            //if the weight is supperior we gonna throw an exception
             throw new IllegalStateException("Weight superior to 10 kgs");
         else {
+            //unless its no so we just add it and increment the counter
             this.items.add(item);
             counter++;
         }
@@ -34,6 +36,8 @@ public class PanierArticles {
     //getter ID
     public int getID() { return ID; }
     //removeItem
+    //we using methodes that already exist in the collection of java objects
+    //giving true or false to the remove method if true it means it got removed if not false
     public boolean removeItem(Item item) {
         if(items.contains(item)) {
             items.remove(item);
@@ -43,10 +47,12 @@ public class PanierArticles {
         return false;
     }
     //item count
+    //displays the number of items
     public int itemCount() {
         return counter;
     }
     //price total
+    //the price in total for the whole panierArticles
     public long totalPrice(){
         long sum=0;
         for (Item a : items){
@@ -54,7 +60,7 @@ public class PanierArticles {
         }
         return sum;
     }
-    //printing the array of items
+    //displaying the array of items
     public String toString() {
         System.out.println("Panier "+this.getID()+" : ["+this.itemCount()+ " Article(s)]");
         for (Item a : items){
