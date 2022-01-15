@@ -10,6 +10,7 @@ import static java.lang.Math.floor;
 import static java.lang.Math.round;
 
 public class Invoice {
+    //private array to add facture for all items
     private List <Payable> facture = new ArrayList<Payable>();
     public Invoice() {
     }

@@ -9,6 +9,7 @@ private final String name;
 private final long price;
 private final int weight;
 //override payable methods
+    //since we are implementing the interface payable because we need to add items to the invoice array
     @Override
     public String label() {
         return this.getName();
@@ -17,6 +18,7 @@ private final int weight;
     public long cost() {
         return this.getPrice();
     }
+    //we assumed that the tax amount is 10 percent as in 1000 centimes
     @Override
     public long taxRatePerTenThousand() {
         return 1000;

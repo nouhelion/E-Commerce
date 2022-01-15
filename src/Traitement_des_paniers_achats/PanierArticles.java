@@ -8,11 +8,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PanierArticles {
+    //creating a array to add items in it
     private List<Item> items = new ArrayList<Item>();
+    //how many items they exist
     private  int counter = 0;
+    //to give it to the ID
     public static int a=0;
     private int ID;
     //default constructor
+    //creating a panier equals giving the id aka the number of the panier
+    // and incrementing the number of panier that exists in the System
     public PanierArticles() {
         a++;
         ID=a;

@@ -3,6 +3,7 @@ package Traitement_des_factures;
 public class Ticket implements Payable{
     private String reference;
     private long price;
+    //overriding payable methods
     @Override
     public String label() {
         return this.getReference();
@@ -19,7 +20,6 @@ public class Ticket implements Payable{
     public String toString() {
         return reference +", " + price ;
     }
-
     //constructor with arguments
     public Ticket(String reference,long price) {
         this.reference = reference;
