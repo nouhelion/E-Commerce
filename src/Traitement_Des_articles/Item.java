@@ -9,11 +9,9 @@ private final String name;
 private final long price;
 private final int weight;
 //override payable methods
-    //since we are implementing the interface payable because we need to add items to the invoice array
+//    since we are implementing the interface payable because we need to add items to the invoice array
     @Override
-    public String label() {
-        return this.getName();
-    }
+    public String label() { return this.getName(); }
     @Override
     public long cost() {
         return this.getPrice();

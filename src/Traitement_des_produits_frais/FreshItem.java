@@ -41,6 +41,7 @@ public class FreshItem extends Item  {
            //3<weight<4 grammes means => 10% - 0.3%
            //4<weight<5 grammes means => 10% - 0.4%
            //etc
+       // 1500 => 10-0.1=9.9*100=990
            return (long) ((10-(0.1*(floor(super.getWeight()/1000))))*100);
     }
 //getter of the date
@@ -57,6 +58,5 @@ public class FreshItem extends Item  {
         System.out.println(item1);     // affiche: corn flakes: 5.00MAD
         FreshItem fresh = new FreshItem("Salmon", 1450, 800, "2012-04-11");
         System.out.println(fresh);     // affiche: BBD:2012-04-11 Salmon: 14.50MAD
-
     }
 }

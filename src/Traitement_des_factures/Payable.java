@@ -5,5 +5,4 @@ public interface Payable  {
      String label();//name of the item
      long cost();//how much it costed
     long taxRatePerTenThousand();//taxe of each item
-
 }

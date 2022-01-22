@@ -34,6 +34,7 @@ public class Invoice {
     public long  totalTax(){
         long tax=0;
         for (Payable a : facture){
+            //algorithm
           tax+=(((a.taxRatePerTenThousand()/10)*a.cost())/1000);
         }
         return tax;
@@ -46,10 +47,10 @@ public class Invoice {
 //        invoice.add(ticket);
 //        Item item = new Item("corn flakes", 500, 1000);
 //        invoice.add(item);
-//        System.out.println(invoice);
-        Item tin = new Item("sardine", 500, 500);
-        FreshItem fresh = new FreshItem("sardine", 500, 500, "2012-04-11");
-        FreshItem fresh2 = new FreshItem("sardine x3", 1500, 1500, "2012-04-11");
+//       System.out.println(invoice);
+        Item tin = new Item("sardine", 100, 100); //1000=>10% =>50
+        FreshItem fresh = new FreshItem("sardine", 500, 500, "2012-04-11");//1000=>10% => 50
+        FreshItem fresh2 = new FreshItem("sardine x3", 1500, 1500, "2012-04-11");//990=>9.9% =148
         System.out.println(tin.taxRatePerTenThousand());     // affiche: 1000
         System.out.println(fresh.taxRatePerTenThousand());   // affiche: 1000
         System.out.println(fresh2.taxRatePerTenThousand());  // affiche:  990

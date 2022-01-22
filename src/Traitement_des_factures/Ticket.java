@@ -9,9 +9,7 @@ public class Ticket implements Payable{
         return this.getReference();
     }
     @Override
-    public long cost() {
-        return this.getPrice();
-    }
+    public long cost() { return this.getPrice(); }
     @Override
     public long taxRatePerTenThousand() {
         return 2500;
@@ -32,7 +30,6 @@ public class Ticket implements Payable{
         System.out.println(payable.label()); // affiche: RGBY17032012 - Walles-France
         System.out.println(payable.cost()); // affiche: 9000
         System.out.println(payable.taxRatePerTenThousand());  // affiche: 2500
-
     }
 
 
