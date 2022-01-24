@@ -6,16 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2bc77759-c8df-4428-ac88-0000fb83ab44" name="Changes" comment="project is done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/app/Traitement_Des_articles/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/app/Traitement_Des_articles/Item.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/app/Traitement_des_factures/Invoice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/app/Traitement_des_factures/Invoice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/app/Traitement_des_factures/Ticket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/app/Traitement_des_factures/Ticket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/app/Traitement_des_paniers_achats/PanierArticles.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/app/Traitement_des_paniers_achats/PanierArticles.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/app/Traitement_des_produits_frais/FreshItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/app/Traitement_des_produits_frais/FreshItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Traitement_Des_articles/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Traitement_Des_articles/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Traitement_des_factures/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Traitement_des_factures/Invoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Traitement_des_factures/Payable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Traitement_des_factures/Payable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Traitement_des_factures/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Traitement_des_factures/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Traitement_des_produits_frais/FreshItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Traitement_des_produits_frais/FreshItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +123,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="ReaderModeSettings">
@@ -180,21 +171,10 @@
       <workItem from="1642777228003" duration="726000" />
       <workItem from="1642789013151" duration="61000" />
       <workItem from="1642792455415" duration="4992000" />
-      <workItem from="1642839322530" duration="4539000" />
-    </task>
-    <task id="LOCAL-00008" summary="swing part deleted">
-      <created>1641322014165</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1641322014165</updated>
-    </task>
-    <task id="LOCAL-00009" summary="swing part deleted">
-      <created>1641322203897</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1641322203897</updated>
+      <workItem from="1642839322530" duration="5028000" />
+      <workItem from="1642986049928" duration="335000" />
+      <workItem from="1643021495863" duration="896000" />
+      <workItem from="1643022756859" duration="114000" />
     </task>
     <task id="LOCAL-00010" summary="first class item done">
       <created>1641339012899</created>
@@ -525,7 +505,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642792489038</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="project is done">
+      <created>1642846044745</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1642846044745</updated>
+    </task>
+    <task id="LOCAL-00058" summary="project is done">
+      <created>1642846159687</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1642846159687</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -572,5 +566,26 @@
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="com.vaadin.designer2.intellij.settings.SizePresetsSettingsComponent">
+    <option name="sizePresets">
+      <list>
+        <SizePreset>
+          <option name="caption" value="Phone" />
+          <option name="height" value="568" />
+          <option name="width" value="320" />
+        </SizePreset>
+        <SizePreset>
+          <option name="caption" value="Tablet" />
+          <option name="height" value="1024" />
+          <option name="width" value="768" />
+        </SizePreset>
+        <SizePreset>
+          <option name="caption" value="Desktop" />
+          <option name="height" value="900" />
+          <option name="width" value="1440" />
+        </SizePreset>
+      </list>
+    </option>
   </component>
 </project>
